@@ -8,9 +8,7 @@ This repository contains the projects built during the HTML and CSS Course at Th
 
 ## Table of Contents
 
-### Projects
-
-### Contact
+Under construction
 
 ## Projects
 
