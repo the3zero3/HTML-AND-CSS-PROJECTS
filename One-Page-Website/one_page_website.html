@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My One Page Website</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is a one page website designed and coded during the HTML and CSS course at The Tech Academy.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .column {
+                float: left;
+                width: 24%;
+                padding: 5px;
+            }
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+        </style>
+    </head>
+    <body>
+        <!--HEADER-->
+        <header>
+            <div>
+                <h1>F1 Engines</h1>
+                <p>The heart of an F1 car</p>
+            </div>
+        </header>
+        <!--NAVBAR-->
+        <nav>
+            <table>
+                <tr>
+                    <td>
+                        <a href="#pictures">Pictures</a>
+                    </td>
+                    <td>
+                        <a href="#videos">Videos</a>
+                    </td>
+                    <td>
+                        <a href="#contact">Contact Us</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+        <!--PICTURES-->
+        <section id="pictures">
+            <div>
+                <h2>Choose an engine:</h2>
+                <div class="row">
+                    <!--V12 IMAGE-->
+                    <div class="column">
+                        <h3>V12</h3>
+                        <img src="images/V12.jpg" alt="V12 engine" style="width:100%">                        
+                    </div>
+                    <!--V10 IMAGE-->
+                    <div class="column">
+                        <h3>V10</h3>
+                        <img src="images/V10.jpg" alt="V10 engine" style="width:100%">                        
+                    </div>
+                    <!--V8 IMAGE-->
+                    <div class="column">
+                        <h3>V8</h3>
+                        <img src="images/V8.jpg" alt="V8 engine" style="width:100%">                        
+                    </div>
+                    <!--V6 IMAGE-->
+                    <div class="column">
+                        <h3>V6</h3>
+                        <img src="images/V6.jpg" alt="V6 engine" style="width:100%">                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--VIDEOS-->
+        <section id="videos">
+            <!--ENGINE VIDEO-->
+            <div>
+                <h2>F1 Engine Comparison</h2>
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/92aYYjK_0Ww"></iframe>
+            </div>
+        </section>
+        <!--CONTACT US-->
+        <section>
+            <div id="contact">
+                <h2>Contact Us!</h2>
+                <form>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name"><br>
+                    <input type="email" placeholder="Email">
+                    <input type="tel" placeholder="Phone Number"><br>
+                    <textarea placeholder="Type message here..."></textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <!--FOOTER-->
+        <footer>
+            <p>&copy; CM Webwerks 2024</p>
+        </footer>
+    </body>
+</html>
