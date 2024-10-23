@@ -28,7 +28,7 @@ ul{
 
 a{
     display: block; /*Displays anchor elements vertically on a new line; this was added so the drop down menu displays vertically and not horizontally on the screen*/
-    font-family: "Josefin Slab", serif;
+    font-family: "Josefin Slab", serif; /*Font from fonts.google.com*/
     font-size: 25px;
     font-weight: 800;
     color: rgb(247, 177, 188);
