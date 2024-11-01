@@ -4,17 +4,17 @@ This repository contains the projects built during the HTML and CSS course at Th
 
 ## Projects
 
-- Simple HTML Documents
-- The Pet Shop Site
-- Creating CSS Effects Site
-- Simple Recipes Site
-- One Page Site
-- Intro to Bootstrap Site
-- Academy Cinemas Site
-- HTML and CSS Challenges
-- Live HTML and CSS Site
+- [Simple HTML Documents](#simple-html-documents)
+- [The Pet Shop Site](#the-pet-shop-site)
+- [Creating CSS Effects Site](#creating-css-effects-site)
+- [Simple Recipes Site](#simple-recipes-site)
+- [One Page Site](#one-page-site)
+- [Intro to Bootstrap Site](#intro-to-bootstrap-site)
+- [Academy Cinemas Site](#academy-cinemas-site)
+- [HTML and CSS Challenges](#html-and-css-challenges)
+- [Live HTML and CSS Site](#live-html-and-css-site)
 
-### Simple HTML Documents
+### Simple HTML Documents 
 
 These documents are mainly HTML files with supporting JS and CSS files creating during the follow along portion of the early training.
 
